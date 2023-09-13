@@ -67,3 +67,9 @@ Here, bootstrapping = 100 (as indicated with flag -b), i.e. algorithm will reite
 Phyml outputs 4 `.txt` files. 
 
 The tree is: `aligned_file.phy_phyml_tree.txt`. Use this file in R to visualise the tree (see `tree.R`)
+
+## 5. Visualise tree
+After reading the Newick tree in R, the tree can be plotted using the function `gtree`, which is part of the `library(treedataverse)`. 
+
+![](tree-visual.png)
+
